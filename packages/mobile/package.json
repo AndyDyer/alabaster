@@ -1,0 +1,31 @@
+{
+  "main": "./AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "storybook": "start-storybook -p 7007"
+  },
+  "dependencies": {
+    "@alabaster/common": "^0.0.0",
+    "@babel/runtime": "^7.8.4",
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react-native": "^5.3.14",
+    "@storybook/react-native-server": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
